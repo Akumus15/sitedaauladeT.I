@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3 empregos para se trabalhar com T.I.</title>
+        <link rel="stylesheet" type="text/css" href="_css/inicio.css">
+</head>
+
+<body>
+
+<div id="interface">
+
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Analista Tec</h1>
+            <h2>Vagas de emprego em T.I</h2>
+        </hgroup>
+
+        <img id="icone" src="fotos/logo.png">
+
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+                <li><a href="autor.html">Autor do Site</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="corpo">
+
+        <article id="parte-principal">
+            <hgroup id="cabecalho-parte-principal">
+                <h3>T.I. no mercado de trabalho</h3>
+                <h1>Saiba de alguns uns empregos que utilizam T.I</h1>
+                <h2>por Pedro Mamed</h2>
+                <h3 class="direita">Atualizado em 12/Junho/2023</h3>
+            </hgroup>
+        </article>
+
+
+<form method="post" id="idContato" action="mamed14.pedro@gmail.com.br" oninput="calc_total()">
+
+<fieldset id="idUsuario">
+<legend>Identificação do Usuário</legend>
+<p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="20" maxlength="40" placeholder="Nome Completo"> </p>
+<p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha" size="8" maxlength="8" placeholder="até 8 digitos"></p>
+<p><label for="idEmail">E-mail:</label><input type="email" name="nEmail" id="idEmail" size="20" maxlength="30"></p>
+<fieldset id="idSexo">
+<legend>Sexo:</legend>
+<input type="radio" name="nSexo" id="idMasc"><label for="idNome">Masculino</label><br>
+<input type="radio" name="nSexo" id="idFem"><label for="idNome">Feminino</label>
+</fieldset>
+<p>Data de Nascimento:<input type="date" name="nNasc" id="idNasc">
+"
+</fieldset>
+
+<fieldset id="idEndereco">
+<legend>Endereço do Usuário</legend>
+<p><label for="idRua">Logradouro:</label><input type="text" name="nRua" id="idRua" size="13" maxlength="50" placeholder="Rua, Av, Trav..."></p>
+<p><label for="idNum">Número:</label><input type="number" name="nNum" id="idNum" min="0" max="99999"></p>
+<p><label for="idEst">Estado:</label>
+<select name="nEst" id="idEst">
+<optgroup label="Região Sudeste">
+<option value="RJ">Rio de Janeiro</option>
+<option value="SP">São Paulo</option>
+<option value="ES">Espírito Santo</option>
+<option value="MG">Minas Gerais</option>
+</optgroup>
+<optgroup label="Região Sul">
+<option value="PR">Paraná</option>
+<option value="SC">Santa Catarina</option>
+<option value="RS">Rio Grande Do Sul a</option>
+</optgroup>
+</select>
+</p>
+<p><label for="idCid">Cidade:</label><input type="text" name="nCid" id="idCid" size="20" maxlength="40" placeholder="Insira sua cidade">
+<datalist id="cidades">
+<option value="Rio de Janeiro">Rio de Janeiro</option>
+<option value="Nova Iguaçu">Nova Iguaçu</option>
+<option value="Belford Roxo">Belford Roxo</option>
+<option value="Niterói">Niterói</option>
+</datalist>
+</p>
+</fieldset>
+
+<fieldset id="idMensagem">
+<legend>Mensagem do Usuário</legend>
+<p><label for="idUrg">Grau de Urgência:</label> Min<input type="range" name="nUrg" id="idUrg" min="0" max="10" step="2">Máx</p>
+<p><label for="idMsg">Mensagem:</label>
+<textarea name="nMsg" id="idMsg" cols="45" rows="5" maxlength="250" placeholder="Deixe aqui sua mensagem"></textarea>
+</p>
+</fieldset>
+
+
+
+
+<input type="image" src="fotos/botao-enviar.png" name="nEnviar">
+
+</form>
+<footer id="rodape">
+    <p>Copyright 2023 - by Pedro Mamed<br>
+        <a href="https://www.instagram.com/mamed_pedro/" target="_blank"> Instagram</a>
+</footer>
+</div>
+</body>
+</html>
+
